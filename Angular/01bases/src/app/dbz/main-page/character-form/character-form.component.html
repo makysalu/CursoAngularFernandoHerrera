@@ -1,0 +1,17 @@
+<h3>Insert Character</h3>
+<hr />
+<form action="" (submit)="insertCharacter($event)">
+  <input
+    type="text"
+    placeholder="Name"
+    name="name"
+    [(ngModel)]="character.name"
+  />
+  <input
+    type="number"
+    placeholder="Power"
+    name="power"
+    [(ngModel)]="character.power"
+  />
+  <button type="submit">Insert</button>
+</form>
